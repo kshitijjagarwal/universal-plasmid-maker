@@ -1,0 +1,4 @@
+>host_derived_ori_module
+# This sequence will be dynamically replaced
+# by the ORI region detected from the host genome
+# using GC skew + k-mer enrichment.
