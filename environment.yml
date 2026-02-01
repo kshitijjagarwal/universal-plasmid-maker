@@ -1,0 +1,11 @@
+name: universal_plasmid
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - biopython
+  - numpy
+  - scipy
+  - matplotlib
+  - pytest
