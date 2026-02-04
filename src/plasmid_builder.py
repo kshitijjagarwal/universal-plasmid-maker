@@ -48,11 +48,18 @@ def build_plasmid(genome_fasta, design_file, markers_tab):
         else:
             continue
 
+    #Remove EcoRI site
+        # -------------------------------------------------
+  
+    plasmid_seq = plasmid_seq.upper()
+    plasmid_seq = plasmid_seq.replace("GAATTC", "")
+    plasmid_seq = plasmid_seq.replace("CTTAAG", "")
+
+
+
+
+
     return plasmid_seq
-
-
-
-
 
 
 if __name__ == "__main__":
